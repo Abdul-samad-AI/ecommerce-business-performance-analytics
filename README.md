@@ -97,35 +97,28 @@ The screenshots provide a quick visual overview of the dashboard for users who m
 
 ## Project Structure
 ecommerce-business-performance/
-│
 ├── data/
-│ ├── raw/ # Original dataset (unchanged)
-│ ├── processed/ # Cleaned and feature-engineered data
-│ └── sql_exports/ # SQL query outputs used for analysis/BI
-│
+│   ├── raw/              # Original dataset (unchanged)
+│   ├── processed/        # Cleaned and feature-engineered data
+│   └── sql_exports/      # SQL query outputs
 ├── notebooks/
-│ ├── 01_data_understanding.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ └── 04_validation_checks.ipynb
-│
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   └── 04_validation_checks.ipynb
 ├── sql/
-│ ├── schema.sql # Database schema definitions
-│ ├── revenue_analysis.sql # Revenue and growth analysis
-│ ├── customer_analysis.sql # LTV and customer segmentation
-│ └── category_region_analysis.sql
-│
+│   ├── schema.sql
+│   ├── revenue_analysis.sql
+│   ├── customer_analysis.sql
+│   └── category_region_analysis.sql
 ├── powerbi/
-│ ├── ecommerce_dashboard.pbix # Power BI dashboard file
-│ └── screenshots/ # Dashboard preview images
-│
+│   ├── ecommerce_dashboard.pbix
+│   └── screenshots/
 ├── reports/
-│ └── business_insights.md # Summary of key insights
-│
+│   └── business_insights.md
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
 ---
 
 ## Key Business Insights
