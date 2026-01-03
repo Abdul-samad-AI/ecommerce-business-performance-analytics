@@ -96,6 +96,7 @@ The screenshots provide a quick visual overview of the dashboard for users who m
 ---
 
 ## Project Structure
+```
 ecommerce-business-performance/
 ├── data/
 │   ├── raw/              # Original dataset (unchanged)
@@ -119,7 +120,8 @@ ecommerce-business-performance/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
----
+```
+
 
 ## Key Business Insights
 - Revenue trends reveal seasonality and growth patterns across time periods  
