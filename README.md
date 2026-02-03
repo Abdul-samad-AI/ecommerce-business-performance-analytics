@@ -111,9 +111,8 @@ This project answers key business questions:
 
 ---
 
-<<<<<<< HEAD
 ## Project Structure
-=======
+
 ## 📈 Power BI Dashboard
 
 The Power BI dashboard is designed for **business stakeholders and decision-makers**.
@@ -138,41 +137,32 @@ The Power BI dashboard is designed for **business stakeholders and decision-make
 
 ## 🗂️ Project Structure
 
->>>>>>> 1a296c4 (updating readme file)
 ```
 ecommerce-business-performance/
 ├── data/
-<<<<<<< HEAD
 │   ├── raw/              # Original dataset (unchanged)
 │   ├── processed/        # Cleaned and feature-engineered data
 │   └── sql_exports/      # SQL query outputs
-=======
 │   ├── raw/                # Original dataset
 │   ├── processed/          # Cleaned & feature-engineered data
 │   └── sql_exports/        # SQL outputs for BI
 │
->>>>>>> 1a296c4 (updating readme file)
 ├── notebooks/
 │   ├── 01_data_understanding.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_feature_engineering.ipynb
 │   └── 04_validation_checks.ipynb
-<<<<<<< HEAD
-=======
 │
->>>>>>> 1a296c4 (updating readme file)
 ├── sql/
 │   ├── schema.sql
 │   ├── revenue_analysis.sql
 │   ├── customer_analysis.sql
 │   └── category_region_analysis.sql
-<<<<<<< HEAD
 ├── powerbi/
 │   ├── ecommerce_dashboard.pbix
 │   └── screenshots/
 ├── reports/
 │   └── business_insights.md
-=======
 │
 ├── powerbi/
 │   ├── ecommerce_dashboard.pbix
@@ -181,7 +171,6 @@ ecommerce-business-performance/
 ├── reports/
 │   └── business_insights.md
 │
->>>>>>> 1a296c4 (updating readme file)
 ├── README.md
 ├── requirements.txt
 └── .gitignore
